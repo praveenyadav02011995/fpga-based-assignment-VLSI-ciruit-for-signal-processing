@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Praveen/Downloads/dft_32_point.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dft_32_point
+INFO: [VRFC 10-311] analyzing module dft_16_point
+INFO: [VRFC 10-311] analyzing module dft_8_point
+INFO: [VRFC 10-311] analyzing module dft_4_point
+INFO: [VRFC 10-311] analyzing module dft_2_point
+INFO: [VRFC 10-311] analyzing module twiddle_factor
+INFO: [VRFC 10-311] analyzing module complex_m
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga/sixtte_pt_dft/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

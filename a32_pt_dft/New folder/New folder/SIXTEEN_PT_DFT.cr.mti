@@ -1,0 +1,20 @@
+{D:/fpga/sixtte_pt_dft/New folder/New folder/eight_fft.v} {1 {vlog -work work -stats=none {D:/fpga/sixtte_pt_dft/New folder/New folder/eight_fft.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module eight_fft
+
+Top level modules:
+	eight_fft
+
+} {} {}} {D:/fpga/sixtte_pt_dft/New folder/New folder/fft16point.v} {0 {vlog -work work -stats=none {D:/fpga/sixtte_pt_dft/New folder/New folder/fft16point.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft16point
+** Error: (vlog-13069) D:/fpga/sixtte_pt_dft/New folder/New folder/fft16point.v(10): near ".": syntax error, unexpected '.'.
+** Error: (vlog-13069) D:/fpga/sixtte_pt_dft/New folder/New folder/fft16point.v(14): near ".": syntax error, unexpected '.'.
+** Error: (vlog-13069) D:/fpga/sixtte_pt_dft/New folder/New folder/fft16point.v(18): near ".": syntax error, unexpected '.'.
+** Error: (vlog-13069) D:/fpga/sixtte_pt_dft/New folder/New folder/fft16point.v(22): near ".": syntax error, unexpected '.'.
+** Error: (vlog-13069) D:/fpga/sixtte_pt_dft/New folder/New folder/fft16point.v(25): near ".": syntax error, unexpected '.'.
+** Error: (vlog-13069) D:/fpga/sixtte_pt_dft/New folder/New folder/fft16point.v(28): near ".": syntax error, unexpected '.'.
+** Error: (vlog-13069) D:/fpga/sixtte_pt_dft/New folder/New folder/fft16point.v(31): near ".": syntax error, unexpected '.'.
+** Error: (vlog-13069) D:/fpga/sixtte_pt_dft/New folder/New folder/fft16point.v(54): near "EOF": syntax error, unexpected end of source code.
+
+} {4.0 12.0} {}}

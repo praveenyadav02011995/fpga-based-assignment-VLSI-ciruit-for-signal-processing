@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar 15 16:38:13 2023
+# Process ID: 10040
+# Current directory: D:/fpga/sixtte_pt_dft/sixteen/sixteen.runs/synth_1
+# Command line: vivado.exe -log fft16point_TB.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fft16point_TB.tcl
+# Log file: D:/fpga/sixtte_pt_dft/sixteen/sixteen.runs/synth_1/fft16point_TB.vds
+# Journal file: D:/fpga/sixtte_pt_dft/sixteen/sixteen.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fft16point_TB.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 359.969 ; gain = 68.598
+Command: synth_design -top fft16point_TB -part xc7a35tftg256-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2992 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 568.344 ; gain = 183.555
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fft16point_TB' [D:/fpga/sixtte_pt_dft/fft16point_TB.v:1]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-251]  X0r=0,X0i=0,X1r=1,X1i=0,X2r=1,X2i=0,X3r=0,X3i=0,X4r=0,X4i=0,X5r=1,X5i=0,X6r=1,X6i=0,X7r=0,X7i=0,X8r=0,X8i=0,X9r=1,X9i=0,X10r=1,X10i=0,X11r=0,X11i=0,X12r=0,X12i=0,X13r=1,X13i=0,X14r=1,X14i=0,X15r=0,X15i=0,p0r=x,p0i=x,p1r=x,p1i=x,p2r=x,p2i=x,p3r=x,p3i=x,p4r=x,p4i=x,p5r=x,p5i=x,p6r=x,p6i=x,p7r=x,p7i=x,p8r=x,p8i=x,p9r=x,p9i=x,p10r=x,p10i=x,p11r=x,p11i=x,p12r=x,p12i=x,p13r=x,p13i=x,p14r=x,p14i=x,p15r=x,p15i=x, [D:/fpga/sixtte_pt_dft/fft16point_TB.v:13]
+ERROR: [Synth 8-439] module 'fft16point' not found [D:/fpga/sixtte_pt_dft/fft16point_TB.v:5]
+ERROR: [Synth 8-6156] failed synthesizing module 'fft16point_TB' [D:/fpga/sixtte_pt_dft/fft16point_TB.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 632.492 ; gain = 247.703
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+4 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 15 16:39:01 2023...
